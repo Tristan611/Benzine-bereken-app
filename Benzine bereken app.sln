@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benzine bereken app", "Benzine bereken app\Benzine bereken app.csproj", "{DEF2A0C3-2AC0-407C-9957-2C301FDB44A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEF2A0C3-2AC0-407C-9957-2C301FDB44A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF2A0C3-2AC0-407C-9957-2C301FDB44A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF2A0C3-2AC0-407C-9957-2C301FDB44A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF2A0C3-2AC0-407C-9957-2C301FDB44A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5B0AB19-C856-4D81-839D-F624BFF24FD8}
+	EndGlobalSection
+EndGlobal
