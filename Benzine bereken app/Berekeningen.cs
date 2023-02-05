@@ -10,7 +10,7 @@ namespace Benzine_bereken_app
 	public class Berekeningen
 	{
 		int TotaalTank { get; set; } = 0;
-		float TotaalKM { get; set; } = 0;
+		double TotaalKM { get; set; } = 0;
 		internal string betalingPersoon;
 
 		List<Persoon> Personen = new List<Persoon>();
