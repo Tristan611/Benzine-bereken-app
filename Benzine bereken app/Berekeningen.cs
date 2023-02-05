@@ -9,13 +9,13 @@ namespace Benzine_bereken_app
 
 	public class Berekeningen
 	{
-		int TotaalTank { get; set; } = 0;
+		double TotaalTank { get; set; } = 0;
 		double TotaalKM { get; set; } = 0;
 		internal string betalingPersoon;
 
 		List<Persoon> Personen = new List<Persoon>();
 
-		public Berekeningen(int totaalTank, List<Persoon> personen)
+		public Berekeningen(double totaalTank, List<Persoon> personen)
 		{
 			TotaalTank = totaalTank;
 			Personen = personen;
