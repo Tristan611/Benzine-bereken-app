@@ -9,14 +9,14 @@ namespace Benzine_bereken_app
 	public class Persoon
 	{
 		public string Naam { get; set;}
-		public float AantalKM { get; set; }
+		public double AantalKM { get; set; }
 		public bool Betaald { get; set; } = false;
-		public Persoon(string naam, float aantalKM)
+		public Persoon(string naam, double aantalKM)
 		{
 			Naam = naam;
 			AantalKM = aantalKM;
 		}
-		public Persoon(string naam, float aantalKM, bool betaald)
+		public Persoon(string naam, double aantalKM, bool betaald)
 		{
 			Naam = naam;
 			AantalKM = aantalKM;
